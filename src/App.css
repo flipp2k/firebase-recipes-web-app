@@ -14,12 +14,13 @@ html {
 }
 .App .title-row {
   display: flex;
-  width: 70rem;
+  max-width: 70rem;
   justify-content: space-between;
   padding: 1rem;
   margin-bottom: 1rem;
   background: #fff;
   align-items: center;
+  flex-wrap: wrap;
 }
 .App .title-row .title {
   color: #4c4c4c;
